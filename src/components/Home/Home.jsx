@@ -14,7 +14,7 @@ const Home = () => {
                 <img className="w-28 sm:w-40" src={logo} />
                 <button className="bg-blue-400 text-white rounded-md px-6 text-xl hover:bg-purple-500 transition" onClick={() => navigate("/login")}>Ingresar</button>
             </nav>
-            <div className="w-full h-2/3 py-20 pt-40 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-20">
+            <div className="w-full h-2/3 py-20 sm:pt-40 pt-20 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-20">
                 {/* <div className="w-full h-screen flex items-center justify-center gap-20"> */}
                 <div className="w-full text-center p-10 sm:text-left sm:w-1/3">
                     <Fade triggerOnce direction='left' fraction={0.25}>
@@ -50,7 +50,7 @@ const Home = () => {
                         </Fade>
                     </div>
                     <Fade triggerOnce direction='right' fraction={0.25}>
-                        <Lottie className="h-96" animationData={animationData} />
+                        <Lottie className="sm:h-96 h-60" animationData={animationData} />
                     </Fade>
                 </div>
                 <div className="w-full h-2/3 py-16 flex flex-col sm:flex-row-reverse items-center justify-center gap-4 sm:gap-20">
@@ -64,7 +64,7 @@ const Home = () => {
                         </Fade>
                     </div>
                     <Fade triggerOnce direction='left' fraction={0.25}>
-                        <Lottie className="h-96" animationData={bot} />
+                        <Lottie className="sm:h-96 h-60" animationData={bot} />
                     </Fade>
                 </div>
             </div>
