@@ -70,7 +70,7 @@ const Home = () => {
                 </div>
             </div>
             <Fade direction='right' triggerOnce={true}>
-                <div>
+                <div className="sm:px-40">
                     <h1 className="font-extrabold sm:text-5xl text-3xl text-center text-gray-800 my-20">Nuestros planes</h1>
                     <PricingTable highlightColor='#a855f7'>
                         <PricingSlot onClick={(e) => alert("Comprando plan gratis")} buttonText='Probar ahora' title='GRATIS' priceText='$0/mes'>
