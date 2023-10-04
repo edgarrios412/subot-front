@@ -5,3 +5,13 @@
 *{
     font-family: 'Nunito';
 }
+
+.button-submit{
+    border-radius: 4px;
+    padding: 4px 30px;
+    font-size: 1em;
+}
+
+.Grid{
+    margin: 40px;
+}
