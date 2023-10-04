@@ -70,33 +70,33 @@ const Home = () => {
                 </div>
             </div>
             {/* PRECIOS */}
+                    <Fade direction='right' triggerOnce={true}>
             <div>
-            <Fade triggerOnce direction="down" fraction={0.25}>
                 <h1 className="font-extrabold sm:text-5xl text-3xl text-center text-gray-800 my-20">Nuestros planes</h1>
                 <PricingTable highlightColor='#a855f7'>
-                    <PricingSlot onClick={(e) => alert("Comprando plan gratis")} buttonText='Probar ahora' title='GRATIS' priceText='$0/mes'>
-                        <PricingDetail> <b>1</b> bot</PricingDetail>
-                        <PricingDetail> <b>5.000</b> tokens</PricingDetail>
-                        {/* <PricingDetail> <b>5</b> users</PricingDetail> */}
-                        <PricingDetail strikethrough> <b>Base de datos</b></PricingDetail>
-                        <PricingDetail strikethrough> <b>Agenda</b></PricingDetail>
-                    </PricingSlot>
-                    <PricingSlot onClick={(e) => alert("Comprando plan basico")} highlighted buttonText='Comprar' title='BASICO' priceText='$29.99/mes'>
-                        <PricingDetail> <b>2</b> bots</PricingDetail>
-                        <PricingDetail> <b>100.000</b> tokens</PricingDetail>
-                        {/* <PricingDetail> <b>Unlimited</b> users</PricingDetail> */}
-                        <PricingDetail> <b>Base de datos</b></PricingDetail>
-                        <PricingDetail> <b>Agenda</b></PricingDetail>
-                    </PricingSlot>
-                    <PricingSlot onClick={(e) => alert("Comprando plan emprendedor")} buttonText='Comprar' title='EMPRENDEDOR' priceText='$49.99/mes'>
-                        <PricingDetail> <b>5</b> bots</PricingDetail>
-                        <PricingDetail> <b>250.000</b> tokens</PricingDetail>
-                        <PricingDetail> <b>Base de datos</b></PricingDetail>
-                        <PricingDetail> <b>Agenda</b></PricingDetail>
-                    </PricingSlot>
+                        <PricingSlot onClick={(e) => alert("Comprando plan gratis")} buttonText='Probar ahora' title='GRATIS' priceText='$0/mes'>
+                            <PricingDetail> <b>1</b> bot</PricingDetail>
+                            <PricingDetail> <b>5.000</b> tokens</PricingDetail>
+                            {/* <PricingDetail> <b>5</b> users</PricingDetail> */}
+                            <PricingDetail strikethrough> <b>Base de datos</b></PricingDetail>
+                            <PricingDetail strikethrough> <b>Agenda</b></PricingDetail>
+                        </PricingSlot>
+                        <PricingSlot onClick={(e) => alert("Comprando plan basico")} highlighted buttonText='Comprar' title='BASICO' priceText='$29.99/mes'>
+                            <PricingDetail> <b>2</b> bots</PricingDetail>
+                            <PricingDetail> <b>100.000</b> tokens</PricingDetail>
+                            {/* <PricingDetail> <b>Unlimited</b> users</PricingDetail> */}
+                            <PricingDetail> <b>Base de datos</b></PricingDetail>
+                            <PricingDetail> <b>Agenda</b></PricingDetail>
+                        </PricingSlot>
+                        <PricingSlot onClick={(e) => alert("Comprando plan emprendedor")} buttonText='Comprar' title='EMPRENDEDOR' priceText='$49.99/mes'>
+                            <PricingDetail> <b>5</b> bots</PricingDetail>
+                            <PricingDetail> <b>250.000</b> tokens</PricingDetail>
+                            <PricingDetail> <b>Base de datos</b></PricingDetail>
+                            <PricingDetail> <b>Agenda</b></PricingDetail>
+                        </PricingSlot>
                 </PricingTable>
-            </Fade>
             </div>
+                    </Fade>
             <button className="flex m-auto my-20 rounded-md py-4 px-8 font-semibold bg-purple-500 text-lg text-white">¿Dudas? Habla con nuestro asesor</button>
             {/* PRECIOS */}
             {/* <footer className="bg-custom-color w-full h-40">
